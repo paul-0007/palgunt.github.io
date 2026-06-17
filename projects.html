@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | Palgun Thatipamula</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<video autoplay muted loop playsinline id="bg-video">
+
+    <source src="assets/backf.mp4" type="video/mp4">
+
+</video>
+<nav class="navbar">
+
+    <div class="logo">
+        <a href="index.html">
+            <img src="assets/logo.png" alt="Palgun Logo">
+        </a>
+    </div>
+
+    <!-- Hamburger Menu Button - Add this here -->
+    <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#research">Research</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><button id="theme-toggle">🌙</button></li>
+
+</nav>
+
+<section class="page-header">
+
+    <h1>Projects</h1>
+
+</section>
+
+<section class="projects-grid">
+
+    <div class="project-card">
+
+        <img src="assets/pro1.png"
+             alt="Drone Detection">
+
+        <div class="project-content">
+
+            <h3>Drone Anomaly Detection Pipeline</h3>
+
+            <p>
+                Real-time drone tracking and anomaly
+                detection using YOLOv8n and ConvLSTM.
+                Achieved 0.944 AUROC.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="project-card">
+
+        <img src="assets/pro2.png"
+             alt="UAV Surveillance">
+
+        <div class="project-content">
+
+            <h3>Edge-AI UAV Surveillance</h3>
+
+            <p>
+                Multi-task architecture for UAV intent
+                recognition on Jetson Orin edge devices.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="project-card">
+
+        <img src="assets/pro3.jpg"
+             alt="Digital Twin">
+
+        <div class="project-content">
+
+            <h3>Physics-Based Digital Twin</h3>
+
+            <p>
+                Real-time flight dynamics simulation
+                and predictive maintenance framework.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="project-card">
+
+        <img src="assets/pro4.png"
+             alt="Soccer">
+
+        <div class="project-content">
+
+            <h3>Soccer Player Performance analysis</h3>
+
+            <p>
+                 A System to Monitor the Soccer Player Movements based on Neural Network.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+    <p>© 2026 Palgun Thatipamula. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+
+</html>
