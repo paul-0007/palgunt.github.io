@@ -112,3 +112,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+function copyEmail() {
+    navigator.clipboard.writeText("palgunthatipamula@gmail.com")
+        .then(() => {
+            alert("Email copied to clipboard!");
+        })
+        .catch(err => {
+            console.error(err);
+        });
+}
