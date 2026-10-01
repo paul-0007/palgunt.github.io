@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -19,11 +18,16 @@
 </head>
 
 <body>
+
 <video autoplay muted loop playsinline id="bg-video">
-
     <source src="assets/backf.mp4" type="video/mp4">
-
 </video>
+
+
+<!-- =======================
+     NAVBAR
+======================== -->
+
 <nav class="navbar">
 
     <div class="logo">
@@ -32,7 +36,6 @@
         </a>
     </div>
 
-    <!-- Hamburger Menu Button - Add this here -->
     <button class="hamburger" id="hamburger">
         <span></span>
         <span></span>
@@ -40,102 +43,232 @@
     </button>
 
     <ul class="nav-links">
-        <li><a href="index.html#about">About</a></li>
-        <li><a href="index.html#research">Research</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="achievements.html">Achievements</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
-        <li><button id="theme-toggle">🌙</button></li>
+
+        <li>
+            <a href="index.html#about">About</a>
+        </li>
+
+        <li>
+            <a href="index.html#research">Research</a>
+        </li>
+
+        <li>
+            <a href="projects.html">Projects</a>
+        </li>
+
+        <li>
+            <a href="publications.html">Publications</a>
+        </li>
+
+        <li>
+            <a href="achievements.html">Achievements</a>
+        </li>
+
+        <li>
+            <a href="index.html#contact">Contact</a>
+        </li>
+
+        <li>
+            <button id="theme-toggle">🌙</button>
+        </li>
+
+    </ul>
 
 </nav>
 
+
+<!-- =======================
+     PAGE HEADER
+======================== -->
+
 <section class="page-header">
 
-    <h1>Projects</h1>
+    <h1>Research Projects</h1>
 
 </section>
 
+
+<!-- =======================
+     PROJECTS
+======================== -->
+
 <section class="projects-grid">
 
+
+    <!-- =======================
+         MOLECULAR COMMUNICATION
+    ======================== -->
+
     <div class="project-card">
 
-        <img src="assets/pro1.png"
-             alt="Drone Detection">
+        <img src="assets/pro5.png"
+             alt="Molecular Transport Simulation">
 
         <div class="project-content">
 
-            <h3>Drone Anomaly Detection Pipeline</h3>
+            <h3>
+                Molecular Transport Simulation
+            </h3>
 
             <p>
-                Real-time drone tracking and anomaly
-                detection using YOLOv8n and ConvLSTM.
-                Achieved 0.944 AUROC.
+                Ongoing work at IIT Kharagpur exploring molecular communication
+                and targeted drug delivery through three-dimensional Brownian
+                motion and Monte Carlo-based stochastic simulation.
             </p>
 
         </div>
 
     </div>
 
+
+    <!-- =======================
+         ASTRO-DBA
+    ======================== -->
+
     <div class="project-card">
 
-        <img src="assets/pro2.png"
-             alt="UAV Surveillance">
+        <img src="assets/pro6.png"
+             alt="Astro-DBA Exoplanet Detection">
 
         <div class="project-content">
 
-            <h3>Edge-AI UAV Surveillance</h3>
+            <h3>
+                Astro-DBA: Exoplanet Transit Detection
+            </h3>
 
             <p>
-                Multi-task architecture for UAV intent
-                recognition on Jetson Orin edge devices.
+                Interpretable dual-view DenseNet-BiLSTM architecture for
+                exoplanet transit detection from photometric time-series data,
+                incorporating temporal modeling and Grad-CAM-based interpretation.
             </p>
 
         </div>
 
     </div>
+
+
+    <!-- =======================
+         DIGITAL TWIN
+    ======================== -->
 
     <div class="project-card">
 
         <img src="assets/pro3.jpg"
-             alt="Digital Twin">
+             alt="Physics-Based Digital Twin">
 
         <div class="project-content">
 
-            <h3>Physics-Based Digital Twin</h3>
+            <h3>
+                Physics-Based Digital Twin
+            </h3>
 
             <p>
-                Real-time flight dynamics simulation
-                and predictive maintenance framework.
+                Digital-twin modeling of dynamic physical systems using
+                physics-based simulation, sensor data, and computational
+                state monitoring.
             </p>
 
         </div>
 
     </div>
+
+
+    <!-- =======================
+         DRONE ANOMALY DETECTION
+    ======================== -->
+
+    <div class="project-card">
+
+        <img src="assets/pro1.png"
+             alt="Drone Anomaly Detection">
+
+        <div class="project-content">
+
+            <h3>
+                Drone Anomaly Detection Pipeline
+            </h3>
+
+            <p>
+                Real-time UAV tracking and behavior anomaly detection
+                using YOLOv8 and ConvLSTM-based spatiotemporal modeling,
+                achieving 0.944 AUROC.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =======================
+         EDGE AI UAV
+    ======================== -->
+
+    <div class="project-card">
+
+        <img src="assets/pro2.png"
+             alt="Edge AI UAV Surveillance">
+
+        <div class="project-content">
+
+            <h3>
+                Edge-AI UAV Surveillance
+            </h3>
+
+            <p>
+                Resource-efficient spatiotemporal modeling for UAV
+                surveillance and intent recognition on NVIDIA Jetson
+                edge computing platforms.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =======================
+         SOCCER PLAYER ANALYSIS
+    ======================== -->
 
     <div class="project-card">
 
         <img src="assets/pro4.png"
-             alt="Soccer">
+             alt="Soccer Player Performance Analysis">
 
         <div class="project-content">
 
-            <h3>Soccer Player Performance analysis</h3>
+            <h3>
+                Soccer Player Performance Analysis
+            </h3>
 
             <p>
-                 A System to Monitor the Soccer Player Movements based on Neural Network.
+                Computer-vision-based system for monitoring soccer player
+                movements and analyzing performance using neural-network
+                methods.
             </p>
 
         </div>
 
     </div>
 
+
 </section>
 
+
+<!-- =======================
+     FOOTER
+======================== -->
+
 <footer class="footer">
-    <p>© 2026 Palgun Thatipamula. All rights reserved.</p>
+
+    <p>
+        © 2026 Palgun Thatipamula. All rights reserved.
+    </p>
+
 </footer>
+
+
 <script src="script.js"></script>
+
 </body>
 
 </html>
