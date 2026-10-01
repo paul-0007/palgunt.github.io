@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -19,11 +18,16 @@
 </head>
 
 <body>
+
 <video autoplay muted loop playsinline id="bg-video">
-
     <source src="assets/backf.mp4" type="video/mp4">
-
 </video>
+
+
+<!-- =======================
+     NAVBAR
+======================== -->
+
 <nav class="navbar">
 
     <div class="logo">
@@ -32,7 +36,6 @@
         </a>
     </div>
 
-    <!-- Hamburger Menu Button - Add this here -->
     <button class="hamburger" id="hamburger">
         <span></span>
         <span></span>
@@ -40,15 +43,43 @@
     </button>
 
     <ul class="nav-links">
-        <li><a href="index.html#about">About</a></li>
-        <li><a href="index.html#research">Research</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="achievements.html">Achievements</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
-        <li><button id="theme-toggle">🌙</button></li>
+
+        <li>
+            <a href="index.html#about">About</a>
+        </li>
+
+        <li>
+            <a href="index.html#research">Research</a>
+        </li>
+
+        <li>
+            <a href="projects.html">Projects</a>
+        </li>
+
+        <li>
+            <a href="publications.html">Publications</a>
+        </li>
+
+        <li>
+            <a href="achievements.html">Achievements</a>
+        </li>
+
+        <li>
+            <a href="index.html#contact">Contact</a>
+        </li>
+
+        <li>
+            <button id="theme-toggle">🌙</button>
+        </li>
+
+    </ul>
 
 </nav>
+
+
+<!-- =======================
+     PAGE HEADING
+======================== -->
 
 <section class="publications-heading">
 
@@ -56,9 +87,17 @@
 
 </section>
 
+
+<!-- =======================
+     PUBLICATIONS & PATENT
+======================== -->
+
 <section class="pub-patent-container">
 
-    <!-- Publications -->
+
+    <!-- =======================
+         PUBLICATIONS
+    ======================== -->
 
     <div class="pub-column">
 
@@ -66,12 +105,52 @@
             Publications
         </h3>
 
+
         <!-- Publication 1 -->
 
         <div class="publication-card">
 
             <span class="pub-status published">
-                Published
+                Published · 2026
+            </span>
+
+            <h3>
+                Astro-DBA: An Interpretable Dual-View DenseNet-BiLSTM
+                Architecture for Exoplanet Transit Detection
+            </h3>
+
+            <p class="authors">
+                Ajay Waghumbare, Palgun T, Yogesh Bhore, and Mandira Mondal
+            </p>
+
+            <p class="venue">
+                Experimental Astronomy · Vol. 62 · Article 8 · 2026
+            </p>
+
+            <p>
+                Interpretable deep-learning architecture for exoplanet transit
+                detection using dual-view photometric time-series data,
+                combining DenseNet, BiLSTM, attention, and Grad-CAM-based
+                model interpretation.
+            </p>
+
+            <p>
+                <a href="https://doi.org/10.1007/s10686-026-10069-5"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View Publication ↗
+                </a>
+            </p>
+
+        </div>
+
+
+        <!-- Publication 2 -->
+
+        <div class="publication-card">
+
+            <span class="pub-status published">
+                Published · 2025
             </span>
 
             <h3>
@@ -87,72 +166,37 @@
                 IEEE PuneCon 2025
             </p>
 
-        </div>
-
-        <!-- Publication 2 -->
-
-        <div class="publication-card">
-
-            <span class="pub-status review">
-                Under Review
-            </span>
-
-            <h3>
-                Edge-Optimized UAV Tracking and Intent Recognition Framework
-            </h3>
-
-            <p class="authors">
-                Palgun Thatipamula et al.
-            </p>
-
-            <p class="venue">
-                IEEE Transactions on Artificial Intelligence
-            </p>
-
-        </div>
-
-        <!-- Publication 3 -->
-
-        <div class="publication-card">
-
-            <span class="pub-status review">
-                Under Review
-            </span>
-
-            <h3>
-                Astro-DBA: An Interpretable Dual-View DenseNet-BiLSTM
-                Architecture for Exoplanet Transit Detection
-            </h3>
-
-            <p class="authors">
-                Co-Author
-            </p>
-
-            <p class="venue">
-                Experimental Astronomy
+            <p>
+                A cascaded real-time pipeline combining UAV detection,
+                tracking, and ConvLSTM-based spatiotemporal anomaly analysis
+                for distinguishing drone behavior from biological motion.
             </p>
 
         </div>
 
     </div>
 
-    <!-- Patent -->
+
+    <!-- =======================
+         INTELLECTUAL PROPERTY
+    ======================== -->
 
     <div class="patent-column">
 
         <h3 class="column-title">
-            Patent
+            Intellectual Property
         </h3>
+
 
         <div class="publication-card">
 
             <span class="pub-status published">
-                Granted
+                Granted · 2026
             </span>
 
             <h3>
-                Computer Vision-Based Player Tracking and Performance
-                Analysis System
+                Computer Vision-Based Player Tracking and
+                Performance Analysis System
             </h3>
 
             <p class="authors">
@@ -160,12 +204,12 @@
             </p>
 
             <p class="venue">
-                Intellectual Property
+                Intellectual Property · Granted May 2026
             </p>
 
             <p>
-                Patent granted for an AI-powered computer vision system
-                for player tracking and performance analytics.
+                AI-based computer vision system for player tracking
+                and performance analysis.
             </p>
 
         </div>
@@ -174,10 +218,22 @@
 
 </section>
 
+
+<!-- =======================
+     FOOTER
+======================== -->
+
 <footer class="footer">
-    <p>© 2026 Palgun Thatipamula. All rights reserved.</p>
+
+    <p>
+        © 2026 Palgun Thatipamula. All rights reserved.
+    </p>
+
 </footer>
+
+
 <script src="script.js"></script>
+
 </body>
 
 </html>
